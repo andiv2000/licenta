@@ -1,0 +1,52 @@
+# --- Date utilizatori / runtime ---
+uploads/
+**/uploads/
+static/results/
+**/static/results/
+.flask_session/
+**/.flask_session/
+
+# --- Cache Python / build ---
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.db
+venv/
+.venv/
+
+# --- Dependențe NPM / build frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# --- Secrete și credențiale (NU URCA NICIODATĂ) ---
+.env
+backend/.env
+credentials.json
+**/credentials.json
+backend/users.json
+*.pem
+*.key
+secrets.json
+
+# --- Date sensibile / specifice instituției ---
+answer_keys.json
+sheet_configs.json
+
+# --- Backup-uri generate de strip_comments.py ---
+_backups_strip_comments_*
+*.bak
+
+# --- Configurări IDE / sistem (personale, nu de proiect) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.claude/
+
+# --- Scratch / temporare ---
+scratchpad/
+*.Zone.Identifier
