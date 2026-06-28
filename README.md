@@ -116,7 +116,7 @@ de limbaj este păstrată exclusiv server-side, fără expunere către browser.
 
 Orice informație personală identificabilă (CNP, adresă de email, număr de
 telefon) este redactată prin expresii regulate înainte de transmiterea către
-modelul de limbaj. Asistentul conversațional integrat este delimitat strict
+LLM. Asistentul conversațional integrat este delimitat strict
 la ghidarea operațională a utilizatorului, fără acces la datele personale ale
 candidaților și fără capacitate de decizie asupra rezultatelor — decizia finală
 rămânând, în toate scenariile, sub controlul operatorului uman.
