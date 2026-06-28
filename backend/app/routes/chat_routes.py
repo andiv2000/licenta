@@ -27,7 +27,7 @@ def _sanitize_pii(text: str) -> tuple[str, list[str]]:
 
 _FACULTY_BLOCKS = {
     'fsgc': """
-## Contextul tău: FSGC (Facultatea de Științe Economice și Gestiunea Afacerilor)
+## Contextul tău: FSGC (Facultatea de Științe ale Guvernării și Comunicare)
 
 ### Foaia de răspuns FSGC
 - **3 secțiuni** (stânga / mijloc / dreapta), **câte 15 întrebări** fiecare → total **45 întrebări**
